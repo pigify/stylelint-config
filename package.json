@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config-pigify",
+  "version": "1.0.0",
+  "description": "This repo contains our stylelint config file. It should be uses across all new react projects that use css modules to maintain consistent and speed up stylelint configuration. It uses stylelint-config-standard.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "DEBUG=stylelint-config-pigify node ./scripts/postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigify/stylelint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pigify/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/pigify/stylelint-config#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "debug": "^4.1.1"
+  }
+}
